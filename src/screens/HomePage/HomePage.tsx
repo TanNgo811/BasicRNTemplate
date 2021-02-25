@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Text, View, SafeAreaView, Image, StyleSheet} from 'react-native';
 import CategoryComponent from '../../components/CategoryComponent/CategoryComponent';
 import axios from 'axios';
-import createAPI from 'unsplash-js';
+// import createAPI from 'unsplash-js';
 import {Component} from 'react';
 import UnsplashAPI from '../../unsplashAPI/UnsplashAPI';
 

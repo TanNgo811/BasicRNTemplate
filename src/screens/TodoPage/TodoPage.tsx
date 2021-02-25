@@ -3,9 +3,9 @@ import {Text, View, TextInput, TouchableOpacity} from 'react-native';
 import styles from './TodoPage.scss';
 import TodoItem from './components/TodoItem';
 import IonIcons from 'react-native-vector-icons/Ionicons';
-// import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// const storageKey = 'todos';
+const storageKey = 'todos';
 
 export default class TodoPage extends Component<any, any> {
   constructor(props: any) {
